@@ -10,7 +10,7 @@ output:
 
 This function takes two sides of a right triangle and returns the hypotenuse
 
-```{r }
+```{r}
 hypot <- function(a,b){
   c <- sqrt((a*a)+(b*b))
   return(c)

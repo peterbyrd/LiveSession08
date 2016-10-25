@@ -1,10 +1,15 @@
 # LiveSession08
 
 There are five files that were created in this repository:
+
 Hypotenuse Function.R
+
 Angle Function.R
+
 Hypotenuse_and_Angles.html
+
 Hypotenuse_and_Angles.Rmd
+
 Hypotenuse_and_Angles.md
 
 The two R files create the functions hypot and ang as described below:

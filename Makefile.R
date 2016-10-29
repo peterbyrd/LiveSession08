@@ -4,9 +4,13 @@ setwd("/Users/pbyrd/Git/LiveSession08")
 source ("Hypotenuse Function.R")
 source ("Angles Function.R")
 
-# Test the hypot funciton on a 3-4-5 right triangle
+# Test the hypot funciton on three triangles
 hypot(3,4)
+hypot(1,1)
+hypot(12,4)
 
-# Test the ang function on a 3-4-5 right triangle with angles 36.87, 53.13, 90
+# Test the ang function on three triangles
 ang (3,4)
+ang (1,1)
+ang (12,4)
 

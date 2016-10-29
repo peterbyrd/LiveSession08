@@ -13,7 +13,7 @@ hypot <- function(a,b){
 }
 ```
 
-Test the functions on a 3-4-5 right triangle with angles 36.86 and 53.13
+Test the functions on three triangles.
 
 
 ```r
@@ -24,7 +24,23 @@ hypot(3,4)
 ## [1] 5
 ```
 
-The function works as expected, returning a value of 5
+```r
+hypot(1,1)
+```
+
+```
+## [1] 1.414214
+```
+
+```r
+hypot(12,4)
+```
+
+```
+## [1] 12.64911
+```
+
+The function works as expected, returning a values of 5, 1.41, and 12.65.
 
 
 # Angles
@@ -41,7 +57,7 @@ ang <- function(a,b) {
 }
 ```
 
-Test the functions on a 3-4-5 right triangle with angles 36.86 and 53.13
+Test the function on three triangles.
 
 
 ```r
@@ -52,4 +68,20 @@ ang(3,4)
 ## [1] 36.8699 53.1301 90.0000
 ```
 
-The function works as expected, returning a vector with the three angles of 36.86, 53.13, and 90.
+```r
+ang(1,1)
+```
+
+```
+## [1] 45 45 90
+```
+
+```r
+ang(12,4)
+```
+
+```
+## [1] 71.56505 18.43495 90.00000
+```
+
+The function works as expected, returning a vector with the angles of each triangle:  (36.86, 53.13, and 90), (45,45,90), and (71.56,18.43,90)

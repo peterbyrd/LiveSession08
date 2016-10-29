@@ -130,10 +130,14 @@ $(document).ready(function () {
   c &lt;- sqrt((a*a)+(b*b))
   return(c)
 }</code></pre>
-<p>Test the functions on a 3-4-5 right triangle with angles 36.86 and 53.13</p>
+<p>Test the functions on three triangles.</p>
 <pre class="r"><code>hypot(3,4)</code></pre>
 <pre><code>## [1] 5</code></pre>
-<p>The function works as expected, returning a value of 5</p>
+<pre class="r"><code>hypot(1,1)</code></pre>
+<pre><code>## [1] 1.414214</code></pre>
+<pre class="r"><code>hypot(12,4)</code></pre>
+<pre><code>## [1] 12.64911</code></pre>
+<p>The function works as expected, returning a values of 5, 1.41, and 12.65.</p>
 </div>
 <div id="angles" class="section level1">
 <h1>Angles</h1>
@@ -144,10 +148,14 @@ $(document).ready(function () {
   angc &lt;- 90
   return(c(anga,angb,angc))
 }</code></pre>
-<p>Test the functions on a 3-4-5 right triangle with angles 36.86 and 53.13</p>
+<p>Test the function on three triangles.</p>
 <pre class="r"><code>ang(3,4)</code></pre>
 <pre><code>## [1] 36.8699 53.1301 90.0000</code></pre>
-<p>The function works as expected, returning a vector with the three angles of 36.86, 53.13, and 90.</p>
+<pre class="r"><code>ang(1,1)</code></pre>
+<pre><code>## [1] 45 45 90</code></pre>
+<pre class="r"><code>ang(12,4)</code></pre>
+<pre><code>## [1] 71.56505 18.43495 90.00000</code></pre>
+<p>The function works as expected, returning a vector with the angles of each triangle: (36.86, 53.13, and 90), (45,45,90), and (71.56,18.43,90)</p>
 </div>
 
 
